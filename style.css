@@ -1,0 +1,154 @@
+body {
+  background-color: #07b49a78;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 100px 150px;
+  margin-bottom: 15px;
+}
+
+.delete {
+  display: none;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  border-radius: 5px;
+  background: #b40707;
+  right: 0;
+  border: none;
+  color: #fff;
+  margin-top: -8px;
+  padding: 8px;
+  transition: background 1s;
+  font-weight: bold;
+  outline: none;
+}
+
+.deleteBtn:hover {
+  background: #ff0000;
+}
+
+/* header styles starts here */
+header {
+  margin-top: 5px;
+}
+header h1 {
+  color: #525252;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header h1 span {
+  color: #fafafa;
+  font-style: italic;
+  text-decoration: line-through;
+}
+#first {
+  color: #424242;
+}
+/* 3 borders color after h1 */
+div.borderBottom {
+  margin: 0 auto;
+  width: 300px;
+}
+
+div.borderColor1 {
+  display: inline-block;
+  background: #fdb44b;
+  width: 95px;
+  height: 5px;
+}
+
+div.borderColor2 {
+  display: inline-block;
+  background: #f71e35;
+  width: 95px;
+  height: 5px;
+}
+
+div.borderColor3 {
+  display: inline-block;
+  background: #0066b3;
+  width: 95px;
+  height: 5px;
+}
+
+/* Add Button */
+
+button#enter {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2em;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #63b931;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  transition: background-color 1s;
+}
+
+button#enter:hover {
+  background: #74ce3b;
+}
+
+/* Ul */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* shoppingList section style starts here */
+.secondHeader {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: #616161;
+  opacity: 0.8;
+  transition: opacity 400ms;
+}
+
+input:hover {
+  opacity: 1;
+}
